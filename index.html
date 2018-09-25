@@ -10,15 +10,57 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
+
 <body>
+
+    <!-- Jumbotron Header -->
     <div class="container">
         <div class="row">
-            <header>Train Scheduler</header>
+            <div class="jumbotron w-100 shadow">
+                <h1 class="display-3">D's Train Station</h1>
+                <p class="lead">Chugga Chugga Chugga</p>
+            </div>
         </div>
     </div>
 
+    <!-- Train Table -->
+    <div class="container">
+        <div class="row">
+            <div class="card w-100 shadow mb-5">
+                <div class="card-header">Current Train Schedule</div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td scope="row"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add a train -->
     <div class="container">
         <div class="row">
             <div class="card w-100 shadow">
@@ -26,11 +68,11 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="train-name">Train Name</label>
-                        <input type="text" class="form-control mb-1 shadow-sm" name="train-name" id="train-name" placeholder="Name of train..."
-                            required>
+                        <input type="text" class="form-control mb-1 shadow-sm" name="train-name" id="train-name"
+                            placeholder="Name of train..." required>
                         <label for="destination">Destination</label>
-                        <input type="text" class="form-control mb-1 shadow-sm" name="Destination" id="destination" placeholder="Destination...."
-                            required>
+                        <input type="text" class="form-control mb-1 shadow-sm" name="Destination" id="destination"
+                            placeholder="Destination...." required>
                         <label for="first-train-time">Train Time (24hr format)</label>
                         <input type="time" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
                             placeholder="Military time... " required>
@@ -43,6 +85,8 @@
         </div>
     </div>
 </body>
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
