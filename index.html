@@ -18,6 +18,30 @@
             <header>Train Scheduler</header>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card w-100 shadow">
+                <div class="card-header"><strong>Add a Train</strong></div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="train-name">Train Name</label>
+                        <input type="text" class="form-control mb-1 shadow-sm" name="train-name" id="train-name" placeholder="Name of train..."
+                            required>
+                        <label for="destination">Destination</label>
+                        <input type="text" class="form-control mb-1 shadow-sm" name="Destination" id="destination" placeholder="Destination...."
+                            required>
+                        <label for="first-train-time">Train Time (24hr format)</label>
+                        <input type="time" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
+                            placeholder="Military time... " required>
+                        <label for="Frequency">Frequency</label>
+                        <input type="time" class="form-control mb-1 shadow-sm" name="Frequency" id="frequency" required>
+                        <a name="submit-train" id="submit-train" class="btn btn-dark mt-2" role="button" style="color: ghostwhite">submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
