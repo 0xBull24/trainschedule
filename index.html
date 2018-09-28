@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -21,7 +22,7 @@
         <div class="row">
             <div class="jumbotron w-100 shadow">
                 <h1 class="display-3">D's Train Station</h1>
-                <p class="lead">Chugga Chugga Chugga</p>
+                <p class="lead">Chugga Chugga Chugga, Toot Toot</p>
             </div>
         </div>
     </div>
@@ -42,17 +43,7 @@
                                 <th scope="col">Minutes Away</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td scope="row"></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td scope="row"></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                        <tbody class="table-body">
                         </tbody>
                     </table>
                 </div>
@@ -74,10 +65,10 @@
                         <input type="text" class="form-control mb-1 shadow-sm" name="Destination" id="destination"
                             placeholder="Destination...." required>
                         <label for="first-train-time">Train Time (24hr format)</label>
-                        <input type="time" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
+                        <input type="" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
                             placeholder="Military time... " required>
                         <label for="Frequency">Frequency</label>
-                        <input type="time" class="form-control mb-1 shadow-sm" name="Frequency" id="frequency" required>
+                        <input type="number" class="form-control mb-1 shadow-sm" name="Frequency" id="frequency" required>
                         <a name="submit-train" id="submit-train" class="btn btn-dark mt-2" role="button" style="color: ghostwhite">submit</a>
                     </div>
                 </div>
