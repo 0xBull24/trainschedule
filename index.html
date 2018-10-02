@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -65,10 +65,11 @@
                         <input type="text" class="form-control mb-1 shadow-sm" name="Destination" id="destination"
                             placeholder="Destination...." required>
                         <label for="first-train-time">Train Time (24hr format)</label>
-                        <input type="" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
+                        <input type="text" class="form-control mb-1 shadow-sm" name="first-train-time" id="first-train-time"
                             placeholder="Military time... " required>
                         <label for="Frequency">Frequency (min)</label>
-                        <input type="number" class="form-control mb-1 shadow-sm" name="Frequency" id="frequency" required>
+                        <input type="number" class="form-control mb-1 shadow-sm" name="Frequency" id="frequency"
+                            required>
                         <a name="submit-train" id="submit-train" class="btn btn-dark mt-2" role="button" style="color: ghostwhite">submit</a>
                     </div>
                 </div>
@@ -86,6 +87,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
 <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js'></script>
 <script src="./assets/js/firebase.js"></script>
 
 </html>
